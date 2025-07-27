@@ -19,7 +19,7 @@ epochs = 100 # số vòng lặp.
 def compute_mse(y_true, y_pred):
     return np.mean((y_true - y_pred) ** 2)
 
-mse_history = []
+mse_history = [] 
 
 for epoch in range(epochs):
     y_pred = w * X + b
